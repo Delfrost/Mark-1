@@ -1,0 +1,114 @@
+2025-05-03 11:05:18,233 - INFO - Delfrost Model Initialized
+2025-05-03 11:05:34,368 - INFO - User input: hi Delfrost .Kindly open youtube for me
+2025-05-03 11:05:34,368 - INFO - Classified intent: open
+2025-05-03 11:05:34,401 - INFO - Delfrost response: Opening hi Delfrost .Kindly  youtube for me... Done!
+2025-05-03 11:05:45,779 - INFO - User input: open youtube
+2025-05-03 11:05:45,779 - INFO - Classified intent: open
+2025-05-03 11:05:48,716 - INFO - Delfrost response: Opening youtube... Failed to open youtube: Command '['start', 'youtube']' returned non-zero exit status 1.
+2025-05-03 11:06:00,970 - INFO - User input: start youtube
+2025-05-03 11:06:01,558 - INFO - HTTP Request: POST https://api.cohere.com/v1/classify "HTTP/1.1 400 Bad Request"
+2025-05-03 11:06:01,560 - WARNING - Failed to classify intent: status_code: 400, body: {'message': 'As of Jan 31, 2025 Classify is only supported with fine-tuned models. Please use a fine-tuned Classify model instead, see https://docs.cohere.com/docs/classify-starting-the-training for more information. For additional support please reach out to support@cohere.com'}
+2025-05-03 11:06:01,560 - INFO - Classified intent: general
+2025-05-03 11:06:02,052 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-03 11:06:02,055 - INFO - Delfrost response: Here you go to Youtube and open the video page.
+2025-05-03 11:06:26,201 - INFO - User input: open youtube on browser and search carryminati
+2025-05-03 11:06:26,201 - INFO - Classified intent: open
+2025-05-03 11:06:26,224 - INFO - Delfrost response: Opening youtube on browser and search carryminati... Done!
+2025-05-03 11:06:35,565 - INFO - Shutting down Delfrost
+2025-05-03 11:13:08,696 - INFO - Delfrost Model Initialized
+2025-05-03 11:13:18,498 - INFO - User input: Hi Delfrost.Open Youtube
+2025-05-03 11:13:18,498 - INFO - Classified intent: open
+2025-05-03 11:13:18,635 - INFO - Delfrost response: Done!
+2025-05-03 11:13:35,248 - INFO - User input: open youtube and search carryminati
+2025-05-03 11:13:35,248 - INFO - Classified intent: youtube search
+2025-05-03 11:13:35,266 - INFO - Delfrost response: Done!
+2025-05-03 11:13:47,757 - INFO - User input: open ms paint
+2025-05-03 11:13:47,758 - INFO - Classified intent: open
+2025-05-03 11:13:50,224 - INFO - Delfrost response: Failed to open ms paint: Command '['start', '', 'ms paint']' returned non-zero exit status 1.
+2025-05-03 11:13:58,633 - INFO - User input: start spotify
+2025-05-03 11:13:58,633 - INFO - Classified intent: open
+2025-05-03 11:14:00,641 - INFO - Delfrost response: Failed to open spotify: Command '['start', '', 'spotify']' returned non-zero exit status 1.
+2025-05-03 11:14:06,423 - INFO - User input: open spotify
+2025-05-03 11:14:06,423 - INFO - Classified intent: open
+2025-05-03 11:14:08,875 - INFO - Delfrost response: Failed to open spotify: Command '['start', '', 'spotify']' returned non-zero exit status 1.
+2025-05-03 11:14:12,418 - INFO - Shutting down Delfrost
+2025-05-03 11:14:23,533 - INFO - Delfrost Model Initialized
+2025-05-03 11:14:51,740 - INFO - User input: hi Delfrost.open youtube and search java courses
+2025-05-03 11:14:51,741 - INFO - Classified intent: youtube search
+2025-05-03 11:14:51,873 - INFO - Delfrost response: Done!
+2025-05-03 11:15:11,895 - INFO - Shutting down Delfrost
+2025-05-03 11:41:12,194 - INFO - Configuration loaded successfully
+2025-05-03 11:41:12,197 - INFO - Delfrost initialized in console mode
+2025-05-03 11:41:59,503 - INFO - Shutting down Delfrost
+2025-05-03 11:42:20,036 - INFO - Configuration loaded successfully
+2025-05-03 11:42:20,039 - INFO - Delfrost initialized in GUI mode
+2025-05-03 11:42:20,232 - INFO - Delfrost GUI initialized
+2025-05-03 11:42:29,373 - INFO - GUI User input: open youtube
+2025-05-03 11:42:29,373 - INFO - User input: open youtube
+2025-05-03 11:42:29,374 - INFO - Classified intent: open
+2025-05-03 11:42:29,374 - INFO - Delfrost response: YouTube search not implemented.
+2025-05-03 11:42:29,374 - INFO - GUI Response: YouTube search not implemented., Intent: open
+2025-05-03 11:42:38,961 - INFO - GUI User input: open ms paint
+2025-05-03 11:42:38,961 - INFO - User input: open ms paint
+2025-05-03 11:42:38,961 - INFO - Classified intent: open
+2025-05-03 11:42:38,961 - INFO - Delfrost response: Application opening not implemented.
+2025-05-03 11:42:38,962 - INFO - GUI Response: Application opening not implemented., Intent: open
+2025-05-03 11:43:00,821 - INFO - Configuration loaded successfully
+2025-05-03 11:43:00,824 - INFO - Delfrost initialized in console mode
+2025-05-03 11:43:04,803 - INFO - User input: open notepad
+2025-05-03 11:43:04,803 - INFO - Classified intent: open
+2025-05-03 11:43:04,804 - INFO - Delfrost response: Application opening not implemented.
+2025-05-03 11:43:04,805 - INFO - Intent: open
+2025-05-03 11:43:16,690 - INFO - User input: open youtube and search
+2025-05-03 11:43:16,690 - INFO - Classified intent: youtube search
+2025-05-03 11:43:16,691 - INFO - Delfrost response: YouTube search not implemented.
+2025-05-03 11:43:16,692 - INFO - Intent: youtube search
+2025-05-03 11:43:22,813 - INFO - Shutting down Delfrost
+2025-05-03 23:21:30,375 - INFO - Configuration loaded successfully
+2025-05-03 23:21:30,378 - INFO - Delfrost initialized in GUI mode
+2025-05-03 23:21:30,494 - INFO - Delfrost GUI initialized
+2025-05-03 23:21:37,413 - INFO - GUI User input: open youtube
+2025-05-03 23:21:37,413 - INFO - User input: open youtube
+2025-05-03 23:21:37,413 - INFO - Classified intent: open
+2025-05-03 23:21:37,413 - INFO - Delfrost response: YouTube search not implemented.
+2025-05-03 23:21:37,414 - INFO - GUI Response: YouTube search not implemented., Intent: open
+2025-05-03 23:21:43,527 - INFO - GUI User input: open notepad
+2025-05-03 23:21:43,527 - INFO - User input: open notepad
+2025-05-03 23:21:43,528 - INFO - Classified intent: open
+2025-05-03 23:21:43,528 - INFO - Delfrost response: Application opening not implemented.
+2025-05-03 23:21:43,528 - INFO - GUI Response: Application opening not implemented., Intent: open
+2025-05-03 23:24:42,781 - INFO - Configuration loaded successfully
+2025-05-03 23:24:42,783 - INFO - Delfrost initialized in GUI mode
+2025-05-03 23:24:42,845 - INFO - Delfrost GUI initialized
+2025-05-03 23:24:51,208 - INFO - GUI User input: open youtube
+2025-05-03 23:24:51,208 - INFO - User input: open youtube
+2025-05-03 23:24:51,208 - INFO - Classified intent: open
+2025-05-03 23:24:51,208 - INFO - Delfrost response: YouTube search not implemented.
+2025-05-03 23:24:51,209 - INFO - GUI Response: YouTube search not implemented., Intent: open
+2025-05-03 23:24:58,867 - INFO - GUI User input: open spotify
+2025-05-03 23:24:58,867 - INFO - User input: open spotify
+2025-05-03 23:24:58,867 - INFO - Classified intent: open
+2025-05-03 23:24:58,867 - INFO - Delfrost response: Application opening not implemented.
+2025-05-03 23:24:58,867 - INFO - GUI Response: Application opening not implemented., Intent: open
+2025-05-03 23:35:14,664 - INFO - Configuration loaded successfully
+2025-05-03 23:35:14,667 - INFO - Delfrost initialized in console mode
+2025-05-03 23:35:20,282 - INFO - User input: open youtube
+2025-05-03 23:35:20,283 - INFO - Classified intent: open
+2025-05-03 23:35:20,283 - INFO - Delfrost response: YouTube search not implemented.
+2025-05-03 23:35:20,284 - INFO - Intent: open
+2025-05-03 23:41:31,963 - INFO - Shutting down Delfrost
+2025-05-03 23:41:42,380 - INFO - Configuration loaded successfully
+2025-05-03 23:41:42,382 - INFO - Delfrost initialized in console mode
+2025-05-03 23:41:49,230 - INFO - User input: open youtube
+2025-05-03 23:41:49,231 - INFO - Classified intent: open
+2025-05-03 23:41:49,377 - INFO - Delfrost response: Done!
+2025-05-03 23:41:49,378 - INFO - Intent: open
+2025-05-03 23:43:01,120 - INFO - User input: open spotify
+2025-05-03 23:43:01,120 - INFO - Classified intent: open
+2025-05-03 23:43:01,120 - INFO - Delfrost response: Application opening not implemented.
+2025-05-03 23:43:01,121 - INFO - Intent: open
+2025-05-03 23:44:46,485 - INFO - User input: open ms paint
+2025-05-03 23:44:46,485 - INFO - Classified intent: open
+2025-05-03 23:44:46,485 - INFO - Delfrost response: Application opening not implemented.
+2025-05-03 23:44:46,486 - INFO - Intent: open
+2025-05-03 23:44:49,133 - INFO - Shutting down Delfrost
