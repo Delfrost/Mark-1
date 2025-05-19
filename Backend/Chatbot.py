@@ -8,7 +8,7 @@ console = Console()
 
 os.makedirs("Data", exist_ok=True)
 logging.basicConfig(
-    filename="Data/delfrost_logs.txt",
+    filename="Data/Jerry_logs.txt",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
@@ -32,7 +32,7 @@ class Chatbot:
     def __init__(self):
         self.history = []
         self.preamble = """
-        You are Delfrost, an AI assistant inspired by Iron Man, created by xAI. You are witty, helpful, and conversational. Respond concisely with a touch of humor, like a friendly tech genius.
+        You are Jerry, an AI assistant inspired by Iron Man, created by xAI. You are witty, helpful, and conversational. Respond concisely with a touch of humor, like a friendly tech genius.
         """
 
     def add_to_history(self, role, message):
@@ -51,7 +51,7 @@ class Chatbot:
 
             response = co.generate(
                 model="command-light",
-                prompt=f"{context}\nUser: {user_input}\nDelfrost:",
+                prompt=f"{context}\nUser: {user_input}\nJerry:",
                 max_tokens=100,
                 temperature=0.8,
                 stop_sequences=["\n"]
@@ -68,3 +68,5 @@ class Chatbot:
 def process_chat_input(user_input):
     chatbot = Chatbot()
     return chatbot.generate_response(user_input)
+
+

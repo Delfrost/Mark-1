@@ -315,3 +315,129 @@
 2025-05-19 07:47:33,157 - INFO - Delfrost response: Done!
 2025-05-19 07:47:33,157 - INFO - Intent: open
 2025-05-19 07:49:16,349 - INFO - Shutting down Delfrost
+2025-05-19 10:11:24,002 - INFO - Delfrost Console Mode Initialized
+2025-05-19 10:11:42,240 - INFO - User input: open youtube
+2025-05-19 10:11:42,240 - INFO - Classified intent: open
+2025-05-19 10:11:42,371 - INFO - Delfrost response: Done!
+2025-05-19 10:11:52,614 - INFO - User input: open ms paint
+2025-05-19 10:11:52,615 - INFO - Classified intent: open
+2025-05-19 10:11:52,720 - INFO - Delfrost response: Done!
+2025-05-19 10:12:00,699 - INFO - Delfrost shutdown
+2025-05-19 10:12:14,977 - INFO - Delfrost GUI Mode Initialized
+2025-05-19 10:12:19,362 - INFO - Voice mode enabled
+2025-05-19 10:12:19,362 - INFO - User input: enable voice
+2025-05-19 10:12:19,363 - INFO - Classified intent: voice
+2025-05-19 10:12:19,415 - INFO - Could not import comtypes.gen, trying to create it.
+2025-05-19 10:12:19,415 - INFO - Created comtypes.gen directory: 'C:\Users\Anant\Desktop\College Work\Python Projects\Mark-1\.venv\Lib\site-packages\comtypes\gen'
+2025-05-19 10:12:19,415 - INFO - Writing __init__.py file: 'C:\Users\Anant\Desktop\College Work\Python Projects\Mark-1\.venv\Lib\site-packages\comtypes\gen\__init__.py'
+2025-05-19 10:12:19,426 - INFO - Using writeable comtypes cache directory: 'C:\Users\Anant\Desktop\College Work\Python Projects\Mark-1\.venv\Lib\site-packages\comtypes\gen'
+2025-05-19 10:12:19,476 - INFO - Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2025-05-19 10:12:19,481 - INFO - # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2025-05-19 10:12:19,567 - INFO - # Generating comtypes.gen.SpeechLib
+2025-05-19 10:12:19,575 - INFO - Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2025-05-19 10:12:19,575 - INFO - # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2025-05-19 10:12:19,583 - INFO - # Generating comtypes.gen.stdole
+2025-05-19 10:12:20,104 - INFO - Speaking text: Voice mode enabled.
+2025-05-19 10:12:22,309 - INFO - Delfrost response: Voice mode enabled.
+2025-05-19 10:12:27,174 - ERROR - GUI speech input error: Could not find PyAudio; check installation
+2025-05-19 10:12:39,912 - INFO - Voice mode disabled
+2025-05-19 10:12:39,913 - INFO - User input: disable voice
+2025-05-19 10:12:39,913 - INFO - Classified intent: voice
+2025-05-19 10:12:39,913 - INFO - Delfrost response: Voice mode disabled.
+2025-05-19 10:12:43,054 - INFO - Voice mode enabled
+2025-05-19 10:12:43,055 - INFO - User input: enable voice
+2025-05-19 10:12:43,055 - INFO - Classified intent: voice
+2025-05-19 10:12:43,096 - INFO - Speaking text: Voice mode enabled.
+2025-05-19 10:12:45,226 - INFO - Delfrost response: Voice mode enabled.
+2025-05-19 10:12:47,488 - ERROR - GUI speech input error: Could not find PyAudio; check installation
+2025-05-19 10:15:12,131 - INFO - Delfrost GUI Mode Initialized
+2025-05-19 10:15:14,221 - INFO - Listening for speech input
+2025-05-19 10:15:19,784 - INFO - Transcribed speech: open YouTube
+2025-05-19 10:15:19,814 - INFO - GUI speech input: open YouTube
+2025-05-19 10:15:19,814 - INFO - User input: open YouTube
+2025-05-19 10:15:19,815 - INFO - Classified intent: open
+2025-05-19 10:15:19,935 - INFO - Delfrost response: Done!
+2025-05-19 10:15:19,936 - INFO - GUI speech response: Done!
+2025-05-19 10:15:28,840 - INFO - Listening for speech input
+2025-05-19 10:16:18,800 - INFO - Delfrost GUI Mode Initialized
+2025-05-19 10:16:22,504 - INFO - Voice mode enabled
+2025-05-19 10:16:22,504 - INFO - User input: enable voice
+2025-05-19 10:16:22,505 - INFO - Classified intent: voice
+2025-05-19 10:16:22,557 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Anant\\Desktop\\College Work\\Python Projects\\Mark-1\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-05-19 10:16:22,557 - INFO - Using writeable comtypes cache directory: 'C:\Users\Anant\Desktop\College Work\Python Projects\Mark-1\.venv\Lib\site-packages\comtypes\gen'
+2025-05-19 10:16:22,723 - INFO - Speaking text: Voice mode enabled.
+2025-05-19 10:16:24,878 - INFO - Delfrost response: Voice mode enabled.
+2025-05-19 10:16:26,571 - INFO - Listening for speech input
+2025-05-19 10:16:31,717 - INFO - Transcribed speech: open YouTube
+2025-05-19 10:16:31,737 - INFO - GUI speech input: open YouTube
+2025-05-19 10:16:31,737 - INFO - User input: open YouTube
+2025-05-19 10:16:31,737 - INFO - Classified intent: open
+2025-05-19 10:16:31,892 - INFO - Speaking text: Done!
+2025-05-19 10:16:33,317 - INFO - Delfrost response: Done!
+2025-05-19 10:16:33,317 - INFO - GUI speech response: Done!
+2025-05-19 10:16:33,367 - INFO - Speaking text: Done!
+2025-05-19 10:16:49,852 - INFO - Listening for speech input
+2025-05-19 10:17:11,867 - ERROR - Unexpected error in speech_to_text: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-05-19 10:17:12,089 - INFO - Listening for speech input
+2025-05-19 10:17:15,427 - WARNING - Speech recognition failed: Could not understand audio
+2025-05-19 10:47:53,773 - INFO - Delfrost GUI Mode Initialized
+2025-05-19 10:47:59,652 - INFO - Voice mode enabled
+2025-05-19 10:47:59,653 - INFO - User input: enable voice
+2025-05-19 10:47:59,653 - INFO - Classified intent: voice
+2025-05-19 10:47:59,711 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Anant\\Desktop\\College Work\\Python Projects\\Mark-1\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-05-19 10:47:59,712 - INFO - Using writeable comtypes cache directory: 'C:\Users\Anant\Desktop\College Work\Python Projects\Mark-1\.venv\Lib\site-packages\comtypes\gen'
+2025-05-19 10:48:00,075 - INFO - Speaking text: Voice mode enabled.
+2025-05-19 10:48:02,233 - INFO - Delfrost response: Voice mode enabled.
+2025-05-19 10:48:05,955 - INFO - Listening for speech input
+2025-05-19 10:48:10,413 - INFO - Transcribed speech: open YouTube
+2025-05-19 10:48:10,433 - INFO - GUI speech input: open YouTube
+2025-05-19 10:48:10,433 - INFO - User input: open YouTube
+2025-05-19 10:48:10,433 - INFO - Classified intent: open
+2025-05-19 10:48:10,598 - INFO - Speaking text: Done!
+2025-05-19 10:48:12,023 - INFO - Delfrost response: Done!
+2025-05-19 10:48:12,024 - INFO - GUI speech response: Done!
+2025-05-19 10:48:12,065 - INFO - Speaking text: Done!
+2025-05-19 10:48:34,933 - INFO - Listening for speech input
+2025-05-19 10:48:43,571 - INFO - Transcribed speech: open YouTube and search for Rebel
+2025-05-19 10:48:43,590 - INFO - GUI speech input: open YouTube and search for Rebel
+2025-05-19 10:48:43,591 - INFO - User input: open YouTube and search for Rebel
+2025-05-19 10:48:43,591 - INFO - Classified intent: youtube search
+2025-05-19 10:48:43,655 - INFO - Speaking text: Done!
+2025-05-19 10:48:45,074 - INFO - Delfrost response: Done!
+2025-05-19 10:48:45,075 - INFO - GUI speech response: Done!
+2025-05-19 10:48:45,127 - INFO - Speaking text: Done!
+2025-05-19 11:08:53,416 - INFO - Listening for speech input
+2025-05-19 11:08:59,393 - INFO - Transcribed speech: open my
+2025-05-19 11:08:59,413 - INFO - GUI speech input: open my
+2025-05-19 11:08:59,413 - INFO - User input: open my
+2025-05-19 11:08:59,413 - INFO - Classified intent: open
+2025-05-19 11:09:03,981 - INFO - Speaking text: Failed to open my: Command '['start', '', 'my']' returned non-zero exit status 1.
+2025-05-19 11:09:04,219 - INFO - Listening for speech input
+2025-05-19 11:09:10,198 - WARNING - Speech recognition failed: Could not understand audio
+2025-05-19 11:09:10,275 - INFO - Delfrost response: Failed to open my: Command '['start', '', 'my']' returned non-zero exit status 1.
+2025-05-19 11:09:10,276 - INFO - GUI speech response: Failed to open my: Command '['start', '', 'my']' returned non-zero exit status 1.
+2025-05-19 11:09:10,328 - INFO - Speaking text: Failed to open my: Command '['start', '', 'my']' returned non-zero exit status 1.
+2025-05-19 11:09:14,240 - INFO - Listening for speech input
+2025-05-19 11:09:19,449 - INFO - Transcribed speech: open Google and search alone
+2025-05-19 11:09:19,467 - INFO - GUI speech input: open Google and search alone
+2025-05-19 11:09:19,467 - INFO - User input: open Google and search alone
+2025-05-19 11:09:19,467 - INFO - Classified intent: open
+2025-05-19 11:09:22,663 - INFO - Speaking text: Failed to open Google and search alone: Command '['start', '', 'googleandsearchalone']' returned non-zero exit status 1.
+2025-05-19 11:09:22,663 - ERROR - Text-to-speech error: run loop already started
+2025-05-19 11:09:22,663 - INFO - Delfrost response: Failed to open Google and search alone: Command '['start', '', 'googleandsearchalone']' returned non-zero exit status 1.
+2025-05-19 11:09:22,664 - INFO - GUI speech response: Failed to open Google and search alone: Command '['start', '', 'googleandsearchalone']' returned non-zero exit status 1.
+2025-05-19 11:09:22,664 - INFO - Speaking text: Failed to open Google and search alone: Command '['start', '', 'googleandsearchalone']' returned non-zero exit status 1.
+2025-05-19 11:09:22,665 - ERROR - Text-to-speech error: run loop already started
+2025-05-19 11:09:32,191 - INFO - Listening for speech input
+2025-05-19 11:09:38,519 - INFO - Transcribed speech: open Google and search for El
+2025-05-19 11:09:38,540 - INFO - GUI speech input: open Google and search for El
+2025-05-19 11:09:38,540 - INFO - User input: open Google and search for El
+2025-05-19 11:09:38,540 - INFO - Classified intent: open
+2025-05-19 11:09:41,691 - INFO - Speaking text: Failed to open Google and search for El: Command '['start', '', 'googleandsearchforel']' returned non-zero exit status 1.
+2025-05-19 11:09:44,103 - INFO - Listening for speech input
+2025-05-19 11:09:51,738 - WARNING - Speech recognition failed: Could not understand audio
+2025-05-19 11:09:51,811 - INFO - Delfrost response: Failed to open Google and search for El: Command '['start', '', 'googleandsearchforel']' returned non-zero exit status 1.
+2025-05-19 11:09:51,813 - INFO - GUI speech response: Failed to open Google and search for El: Command '['start', '', 'googleandsearchforel']' returned non-zero exit status 1.
+2025-05-19 11:09:51,858 - INFO - Speaking text: Failed to open Google and search for El: Command '['start', '', 'googleandsearchforel']' returned non-zero exit status 1.
+2025-05-19 11:09:57,524 - INFO - Listening for speech input
+2025-05-19 11:10:01,002 - WARNING - Speech recognition failed: Could not understand audio

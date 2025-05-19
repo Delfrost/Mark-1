@@ -1,0 +1,33 @@
+2025-05-19 11:22:30,785 - INFO - Jerry Console Mode Initialized
+2025-05-19 11:22:38,775 - INFO - User input: speak
+2025-05-19 11:22:38,776 - INFO - Classified intent: general
+2025-05-19 11:22:38,776 - INFO - Chatbot input: speak
+2025-05-19 11:22:40,088 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-19 11:22:40,092 - INFO - Chatbot response: "Hello, Human! Let me help you with that tech thingy... I'm a genius in tech support, so... pressing those buttons... 🎡
+2025-05-19 11:22:40,092 - INFO - Jerry response: "Hello, Human! Let me help you with that tech thingy... I'm a genius in tech support, so... pressing those buttons... 🎡
+2025-05-19 22:05:13,033 - INFO - Jerry Console Mode Initialized
+2025-05-19 22:05:15,975 - INFO - Jerry shutdown
+2025-05-19 22:05:21,912 - INFO - Delfrost GUI Mode Initialized
+2025-05-19 22:05:25,460 - INFO - Voice mode enabled
+2025-05-19 22:05:25,461 - INFO - User input: enable voice
+2025-05-19 22:05:25,461 - INFO - Classified intent: voice
+2025-05-19 22:05:25,531 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Anant\\Desktop\\College Work\\Python Projects\\Mark-1\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-05-19 22:05:25,531 - INFO - Using writeable comtypes cache directory: 'C:\Users\Anant\Desktop\College Work\Python Projects\Mark-1\.venv\Lib\site-packages\comtypes\gen'
+2025-05-19 22:05:25,772 - INFO - Speaking text: Voice mode enabled.
+2025-05-19 22:05:27,973 - INFO - Jerry response: Voice mode enabled.
+2025-05-19 22:05:37,117 - INFO - Listening for speech input
+2025-05-19 22:05:43,399 - INFO - Transcribed speech: open YouTube and search carry
+2025-05-19 22:05:43,420 - INFO - GUI speech input: open YouTube and search carry
+2025-05-19 22:05:43,420 - INFO - User input: open YouTube and search carry
+2025-05-19 22:05:43,421 - INFO - Classified intent: youtube search
+2025-05-19 22:05:43,593 - INFO - Speaking text: Done!
+2025-05-19 22:05:45,069 - INFO - Jerry response: Done!
+2025-05-19 22:05:45,070 - INFO - GUI speech response: Done!
+2025-05-19 22:05:45,114 - INFO - Speaking text: Done!
+2025-05-19 22:06:47,907 - INFO - GUI input: open ms paint
+2025-05-19 22:06:47,907 - INFO - User input: open ms paint
+2025-05-19 22:06:47,907 - INFO - Classified intent: open
+2025-05-19 22:06:48,047 - INFO - Speaking text: Done!
+2025-05-19 22:06:49,471 - INFO - Jerry response: Done!
+2025-05-19 22:06:49,471 - INFO - GUI response: Done!
+2025-05-19 22:06:49,526 - INFO - Speaking text: Done!
