@@ -1,8 +1,9 @@
+import os
+print("Current working directory:", os.getcwd())
 import cohere
 from rich import print
 from rich.console import Console
 from dotenv import dotenv_values
-import os
 import re
 from functools import lru_cache
 import logging
@@ -14,17 +15,28 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
+# Initialize import status flags for debugging
+youtube_search_imported = False
+automation_imported = False
+image_generation_imported = False
+text_to_speech_imported = False
+chatbot_imported = False
+
 try:
-    from Backend.RealTimeSearchEngine import perform_youtube_search, perform_google_search
-except ImportError:
+    from .RealTimeSearchEngine import perform_youtube_search, perform_google_search
+    youtube_search_imported = True
+except ImportError as e:
+    logging.error(f"Failed to import RealTimeSearchEngine: {str(e)}")
     def perform_youtube_search(query):
         return "YouTube search not implemented."
     def perform_google_search(query):
         return "Google search not implemented."
 
 try:
-    from Backend.Automation import open_application, close_application, play_media
-except ImportError:
+    from .Automation import open_application, close_application, play_media
+    automation_imported = True
+except ImportError as e:
+    logging.error(f"Failed to import Automation: {str(e)}")
     def open_application(app_name):
         return "Application opening not implemented."
     def close_application(app_name):
@@ -33,18 +45,36 @@ except ImportError:
         return "Media playback not implemented."
 
 try:
-    from ImageGeneration import generate_image
-except ImportError:
+    from .ImageGeneration import generate_image
+    image_generation_imported = True
+except ImportError as e:
+    logging.error(f"Failed to import ImageGeneration: {str(e)}")
     def generate_image(description):
         return "Image generation not implemented."
 
 try:
-    from TextToSpeech import speak_text
-except ImportError:
+    from .TextToSpeech import speak_text
+    text_to_speech_imported = True
+except ImportError as e:
+    logging.error(f"Failed to import TextToSpeech: {str(e)}")
     def speak_text(text):
         return "Text-to-speech not implemented."
 
+try:
+    from .Chatbot import process_chat_input
+    chatbot_imported = True
+except ImportError as e:
+    logging.error(f"Failed to import Chatbot: {str(e)}")
+    def process_chat_input(user_input):
+        return "Chatbot not implemented."
+
+# Log import status
 console = Console()
+console.print(f"[cyan]YouTube search imported: {youtube_search_imported}[/cyan]")
+console.print(f"[cyan]Automation imported: {automation_imported}[/cyan]")
+console.print(f"[cyan]Image generation imported: {image_generation_imported}[/cyan]")
+console.print(f"[cyan]Text to speech imported: {text_to_speech_imported}[/cyan]")
+console.print(f"[cyan]Chatbot imported: {chatbot_imported}[/cyan]")
 
 env_vars = dotenv_values(".env")
 CohereAPIKey = env_vars.get("CohereAPIKey")
@@ -71,13 +101,6 @@ messages = []
 preamble = """
 You are Delfrost, an AI assistant inspired by Iron Man, created by xAI. You are witty, helpful, and capable of performing tasks like searches, opening apps, and more. Respond concisely and professionally.
 """
-
-ChatHistory = [
-    {"role": "user", "message": "Hello"},
-    {"role": "Chatbot", "message": "Hello! How can I assist you?"},
-    {"role": "user", "message": "Tell me a joke"},
-    {"role": "Chatbot", "message": "Why don't atoms trust each other? They make up everything!"},
-]
 
 @lru_cache(maxsize=100)
 def classify_intent(user_input):
@@ -152,22 +175,7 @@ def process_input(user_input):
             reminder = re.sub(r"\bset\s+reminder\b", "", user_input, flags=re.IGNORECASE).strip()
             bot_response = f"Reminder for '{reminder}' not implemented."
         else:
-            context = preamble + "\n\nRecent Chat History:\n"
-            for msg in messages[-3:]:
-                context += f"{msg['role']}: {msg['message']}\n"
-            try:
-                response = co.generate(
-                    model="command-light",
-                    prompt=f"{context}\nUser: {user_input}\nDelfrost:",
-                    max_tokens=50,
-                    temperature=0.7,
-                    stop_sequences=["\n"]
-                )
-                bot_response = response.generations[0].text.strip()
-            except cohere.error.CohereAPIError as api_err:
-                console.print(f"[yellow]API Error: {str(api_err)}[/yellow]")
-                logging.warning(f"Cohere API Error: {str(api_err)}")
-                bot_response = "Trouble connecting to knowledge base."
+            bot_response = process_chat_input(user_input)
 
         messages.append({"role": "Chatbot", "message": bot_response})
         logging.info(f"Delfrost response: {bot_response}")

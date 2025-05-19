@@ -1,0 +1,14 @@
+2025-05-18 20:15:29,550 - ERROR - Failed to import RealTimeSearchEngine: No module named 'Backend'
+2025-05-18 20:15:29,551 - ERROR - Failed to import Automation: No module named 'Backend'
+2025-05-18 20:15:29,551 - ERROR - Failed to import ImageGeneration: No module named 'Backend'
+2025-05-18 20:15:29,552 - ERROR - Failed to import TextToSpeech: No module named 'Backend'
+2025-05-18 20:15:29,553 - ERROR - Failed to import Chatbot: No module named 'Backend'
+2025-05-18 20:15:29,562 - ERROR - Cohere API key not found
+2025-05-18 20:15:39,405 - ERROR - Failed to import RealTimeSearchEngine: No module named 'Backend'
+2025-05-18 20:15:39,406 - ERROR - Failed to import Automation: No module named 'Backend'
+2025-05-18 20:15:39,406 - ERROR - Failed to import ImageGeneration: No module named 'Backend'
+2025-05-18 20:15:39,407 - ERROR - Failed to import TextToSpeech: No module named 'Backend'
+2025-05-18 20:15:39,408 - ERROR - Failed to import Chatbot: No module named 'Backend'
+2025-05-18 20:15:39,416 - ERROR - Cohere API key not found
+2025-05-18 20:18:48,042 - ERROR - Failed to import Automation: No module named 'Backend'
+2025-05-18 20:18:48,259 - ERROR - Cohere API key not found

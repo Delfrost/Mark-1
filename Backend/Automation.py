@@ -3,7 +3,7 @@ from rich.console import Console
 import subprocess
 import os
 import webbrowser
-from RealTimeSearchEngine import perform_youtube_search
+from Backend.RealTimeSearchEngine import perform_youtube_search
 
 console = Console()
 

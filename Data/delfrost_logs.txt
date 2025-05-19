@@ -112,3 +112,206 @@
 2025-05-03 23:44:46,485 - INFO - Delfrost response: Application opening not implemented.
 2025-05-03 23:44:46,486 - INFO - Intent: open
 2025-05-03 23:44:49,133 - INFO - Shutting down Delfrost
+2025-05-15 10:27:55,442 - INFO - Delfrost Initialized
+2025-05-15 10:28:19,466 - INFO - User input: open youtube and search livefrost
+2025-05-15 10:28:19,467 - INFO - Classified intent: youtube search
+2025-05-15 10:28:19,467 - INFO - Delfrost response: YouTube search not implemented.
+2025-05-15 10:28:35,462 - INFO - User input: whyyyyyy
+2025-05-15 10:28:35,463 - INFO - Classified intent: general
+2025-05-15 10:28:38,731 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-15 10:28:38,736 - INFO - Delfrost response: Oh, that is a common question. I will help you search for the platform, and would love to assist you with any YouTube-related queries.
+2025-05-15 10:29:00,315 - INFO - User input: no you cant search noob machine i hate you
+2025-05-15 10:29:00,315 - INFO - Classified intent: general
+2025-05-15 10:29:02,214 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-15 10:29:02,215 - INFO - Delfrost response: I'm afraid that won't be possible right now. Instead, I can help you with your queries, and have suggestions for activities or tasks that are enjoyable to assist you with.
+2025-05-15 10:29:33,894 - INFO - Delfrost shutdown
+2025-05-18 17:19:31,208 - INFO - Delfrost Initialized
+2025-05-18 17:19:45,162 - INFO - User input: open youtube and search for live forst
+2025-05-18 17:19:45,162 - INFO - Classified intent: youtube search
+2025-05-18 17:19:45,277 - INFO - Delfrost response: Done!
+2025-05-18 17:20:00,420 - INFO - User input: open spotify
+2025-05-18 17:20:00,421 - INFO - Classified intent: open
+2025-05-18 17:20:00,472 - INFO - Delfrost response: Done!
+2025-05-18 17:20:16,423 - INFO - User input: open valorant
+2025-05-18 17:20:16,423 - INFO - Classified intent: open
+2025-05-18 17:20:18,635 - INFO - Delfrost response: Failed to open valorant: Command '['start', '', 'valorant']' returned non-zero exit status 1.
+2025-05-18 17:20:23,733 - INFO - Delfrost shutdown
+2025-05-18 17:21:02,125 - INFO - Configuration loaded successfully
+2025-05-18 17:21:02,127 - INFO - Delfrost initialized in GUI mode
+2025-05-18 17:21:02,229 - INFO - Delfrost GUI initialized
+2025-05-18 17:21:13,433 - INFO - GUI User input: open ms paint
+2025-05-18 17:21:13,433 - INFO - User input: open ms paint
+2025-05-18 17:21:13,434 - INFO - Classified intent: open
+2025-05-18 17:21:13,434 - INFO - Delfrost response: Application opening not implemented.
+2025-05-18 17:21:13,434 - INFO - GUI Response: Application opening not implemented., Intent: open
+2025-05-18 17:21:21,688 - INFO - GUI User input: open youtube
+2025-05-18 17:21:21,688 - INFO - User input: open youtube
+2025-05-18 17:21:21,688 - INFO - Classified intent: open
+2025-05-18 17:21:21,688 - INFO - Delfrost response: YouTube search not implemented.
+2025-05-18 17:21:21,688 - INFO - GUI Response: YouTube search not implemented., Intent: open
+2025-05-18 17:22:21,250 - INFO - Configuration loaded successfully
+2025-05-18 17:22:21,252 - INFO - Delfrost initialized in console mode
+2025-05-18 17:22:28,986 - INFO - User input: open youtube
+2025-05-18 17:22:28,987 - INFO - Classified intent: open
+2025-05-18 17:22:28,987 - INFO - Delfrost response: YouTube search not implemented.
+2025-05-18 17:22:28,987 - INFO - Intent: open
+2025-05-18 17:22:36,975 - INFO - User input: open ms paint
+2025-05-18 17:22:36,975 - INFO - Classified intent: open
+2025-05-18 17:22:36,975 - INFO - Delfrost response: Application opening not implemented.
+2025-05-18 17:22:36,976 - INFO - Intent: open
+2025-05-18 17:22:41,500 - INFO - Shutting down Delfrost
+2025-05-18 17:31:04,311 - INFO - Configuration loaded successfully
+2025-05-18 17:31:04,312 - INFO - Delfrost initialized in console mode
+2025-05-18 17:31:26,389 - INFO - User input: open youtube and search carryminati
+2025-05-18 17:31:26,389 - INFO - Classified intent: youtube search
+2025-05-18 17:31:26,475 - INFO - Delfrost response: Done!
+2025-05-18 17:31:26,476 - INFO - Intent: youtube search
+2025-05-18 17:31:42,497 - INFO - Shutting down Delfrost
+2025-05-18 17:32:12,646 - INFO - Configuration loaded successfully
+2025-05-18 17:32:12,647 - INFO - Delfrost initialized in GUI mode
+2025-05-18 17:32:12,668 - INFO - Delfrost GUI initialized
+2025-05-18 17:32:18,450 - INFO - GUI User input: open ms paint
+2025-05-18 17:32:18,450 - INFO - User input: open ms paint
+2025-05-18 17:32:18,450 - INFO - Classified intent: open
+2025-05-18 17:32:18,557 - INFO - Delfrost response: Done!
+2025-05-18 17:32:18,558 - INFO - GUI Response: Done!, Intent: open
+2025-05-18 17:32:26,243 - INFO - GUI User input: open word
+2025-05-18 17:32:26,243 - INFO - User input: open word
+2025-05-18 17:32:26,243 - INFO - Classified intent: open
+2025-05-18 17:32:27,459 - INFO - Delfrost response: Failed to open word: Command '['start', '', 'word']' returned non-zero exit status 1.
+2025-05-18 17:32:27,460 - INFO - GUI Response: Failed to open word: Command '['start', '', 'word']' returned non-zero exit status 1., Intent: open
+2025-05-18 17:40:48,151 - INFO - Delfrost Initialized
+2025-05-18 17:43:19,761 - INFO - User input: hi how are you
+2025-05-18 17:43:19,762 - INFO - Classified intent: general
+2025-05-18 17:43:19,762 - INFO - Delfrost response: Chatbot not implemented.
+2025-05-18 17:43:33,447 - INFO - User input: search for carryminati on youtube
+2025-05-18 17:43:33,447 - INFO - Classified intent: general
+2025-05-18 17:43:33,447 - INFO - Delfrost response: Chatbot not implemented.
+2025-05-18 17:43:38,477 - INFO - User input: open youtube
+2025-05-18 17:43:38,478 - INFO - Classified intent: open
+2025-05-18 17:43:38,478 - INFO - Delfrost response: YouTube search not implemented.
+2025-05-18 17:43:45,031 - INFO - Delfrost shutdown
+2025-05-18 17:44:55,309 - INFO - Delfrost Initialized
+2025-05-18 17:45:03,548 - INFO - Delfrost shutdown
+2025-05-18 17:46:15,259 - ERROR - Failed to import RealTimeSearchEngine: attempted relative import with no known parent package
+2025-05-18 17:46:15,259 - ERROR - Failed to import Automation: attempted relative import with no known parent package
+2025-05-18 17:46:15,259 - ERROR - Failed to import ImageGeneration: attempted relative import with no known parent package
+2025-05-18 17:46:15,259 - ERROR - Failed to import TextToSpeech: attempted relative import with no known parent package
+2025-05-18 17:46:15,259 - ERROR - Failed to import Chatbot: attempted relative import with no known parent package
+2025-05-18 17:46:15,698 - INFO - Delfrost Initialized
+2025-05-18 19:54:35,825 - INFO - Delfrost shutdown
+2025-05-18 19:54:40,751 - INFO - Configuration loaded successfully
+2025-05-18 19:54:40,753 - INFO - Delfrost initialized in console mode
+2025-05-18 19:54:48,340 - INFO - User input: open youtube
+2025-05-18 19:54:48,340 - INFO - Classified intent: open
+2025-05-18 19:54:48,479 - INFO - Delfrost response: Done!
+2025-05-18 19:54:48,479 - INFO - Intent: open
+2025-05-18 19:57:36,534 - INFO - User input: open ms paint
+2025-05-18 19:57:36,535 - INFO - Classified intent: open
+2025-05-18 19:57:36,632 - INFO - Delfrost response: Done!
+2025-05-18 19:57:36,633 - INFO - Intent: open
+2025-05-18 19:57:43,428 - INFO - Shutting down Delfrost
+2025-05-18 19:57:51,404 - ERROR - Failed to import RealTimeSearchEngine: attempted relative import with no known parent package
+2025-05-18 19:57:51,404 - ERROR - Failed to import Automation: attempted relative import with no known parent package
+2025-05-18 19:57:51,404 - ERROR - Failed to import ImageGeneration: attempted relative import with no known parent package
+2025-05-18 19:57:51,404 - ERROR - Failed to import TextToSpeech: attempted relative import with no known parent package
+2025-05-18 19:57:51,404 - ERROR - Failed to import Chatbot: attempted relative import with no known parent package
+2025-05-18 19:57:52,004 - INFO - Delfrost Initialized
+2025-05-18 19:57:56,687 - INFO - Delfrost shutdown
+2025-05-18 20:05:06,073 - ERROR - Failed to import RealTimeSearchEngine: No module named 'Backend'
+2025-05-18 20:05:06,074 - ERROR - Failed to import Automation: No module named 'Backend'
+2025-05-18 20:05:06,075 - ERROR - Failed to import ImageGeneration: No module named 'Backend'
+2025-05-18 20:05:06,076 - ERROR - Failed to import TextToSpeech: No module named 'Backend'
+2025-05-18 20:05:06,076 - ERROR - Failed to import Chatbot: No module named 'Backend'
+2025-05-18 20:05:06,687 - INFO - Delfrost Initialized
+2025-05-18 20:05:11,542 - INFO - Delfrost shutdown
+2025-05-18 20:12:03,595 - ERROR - Failed to import RealTimeSearchEngine: No module named 'Backend'
+2025-05-18 20:12:03,595 - ERROR - Failed to import Automation: No module named 'Backend'
+2025-05-18 20:12:03,596 - ERROR - Failed to import ImageGeneration: No module named 'Backend'
+2025-05-18 20:12:03,597 - ERROR - Failed to import TextToSpeech: No module named 'Backend'
+2025-05-18 20:12:03,598 - ERROR - Failed to import Chatbot: No module named 'Backend'
+2025-05-18 20:12:04,225 - INFO - Delfrost Initialized
+2025-05-18 20:12:16,751 - INFO - User input: open youtube
+2025-05-18 20:12:16,752 - INFO - Classified intent: open
+2025-05-18 20:12:16,752 - INFO - Delfrost response: YouTube search not implemented.
+2025-05-18 20:12:21,804 - INFO - Delfrost shutdown
+2025-05-18 20:14:05,077 - INFO - Delfrost Initialized
+2025-05-18 20:14:21,099 - INFO - Delfrost shutdown
+2025-05-18 20:15:09,560 - ERROR - Failed to import RealTimeSearchEngine: No module named 'Backend'
+2025-05-18 20:15:09,561 - ERROR - Failed to import Automation: No module named 'Backend'
+2025-05-18 20:15:09,562 - ERROR - Failed to import ImageGeneration: No module named 'Backend'
+2025-05-18 20:15:09,562 - ERROR - Failed to import TextToSpeech: No module named 'Backend'
+2025-05-18 20:15:09,563 - ERROR - Failed to import Chatbot: No module named 'Backend'
+2025-05-18 20:15:10,147 - INFO - Delfrost Initialized
+2025-05-18 20:15:13,733 - INFO - Delfrost shutdown
+2025-05-18 20:16:39,146 - INFO - Delfrost Initialized
+2025-05-18 20:18:44,263 - INFO - Delfrost shutdown
+2025-05-18 20:18:55,705 - ERROR - Failed to import Automation: No module named 'Backend'
+2025-05-18 20:18:56,855 - INFO - Delfrost Initialized
+2025-05-18 20:19:02,814 - INFO - User input: hi
+2025-05-18 20:19:02,815 - INFO - Classified intent: general
+2025-05-18 20:19:02,815 - INFO - Chatbot input: hi
+2025-05-18 20:19:03,457 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 20:19:03,464 - INFO - Chatbot response: Hi, there! How can I help you solve your issues with tech?
+2025-05-18 20:19:03,464 - INFO - Delfrost response: Hi, there! How can I help you solve your issues with tech?
+2025-05-18 20:19:16,760 - INFO - User input: how are you doin today?
+2025-05-18 20:19:16,761 - INFO - Classified intent: general
+2025-05-18 20:19:16,761 - INFO - Chatbot input: how are you doin today?
+2025-05-18 20:19:17,630 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 20:19:17,631 - INFO - Chatbot response: Ah, good question! Today, I'm energized by code and AI innovation - thoughts of a sophisticated robot butler with helpful abilities. Go! Veni AI has In a way fun and fascinating?s work and a great conversation!
+2025-05-18 20:19:17,631 - INFO - Delfrost response: Ah, good question! Today, I'm energized by code and AI innovation - thoughts of a sophisticated robot butler with helpful abilities. Go! Veni AI has In a way fun and fascinating?s work and a great conversation!
+2025-05-18 20:19:35,881 - INFO - User input: you look tired today
+2025-05-18 20:19:35,882 - INFO - Classified intent: general
+2025-05-18 20:19:35,882 - INFO - Chatbot input: you look tired today
+2025-05-18 20:19:36,549 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 20:19:36,550 - INFO - Chatbot response: Just woke up - this AI mind is sharp as ever! Always up for a chat and ready to assist, assist, assist!
+2025-05-18 20:19:36,550 - INFO - Delfrost response: Just woke up - this AI mind is sharp as ever! Always up for a chat and ready to assist, assist, assist!
+2025-05-18 20:19:46,504 - INFO - User input: tell me the news
+2025-05-18 20:19:46,504 - INFO - Classified intent: general
+2025-05-18 20:19:46,504 - INFO - Chatbot input: tell me the news
+2025-05-18 20:19:47,193 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 20:19:47,194 - INFO - Chatbot response: The news is, I am ready to assist you in finding answers and unlocking ideas. I'll also be quick, sharp and get this ball rolling!
+2025-05-18 20:19:47,194 - INFO - Delfrost response: The news is, I am ready to assist you in finding answers and unlocking ideas. I'll also be quick, sharp and get this ball rolling!
+2025-05-18 20:19:57,613 - INFO - User input: can you flirt with me
+2025-05-18 20:19:57,613 - INFO - Classified intent: general
+2025-05-18 20:19:57,614 - INFO - Chatbot input: can you flirt with me
+2025-05-18 20:19:58,269 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 20:19:58,270 - INFO - Chatbot response: Okay, sure thing!  I'll be your personal Iron Man AI coming through with some allure! Let's do it.
+2025-05-18 20:19:58,270 - INFO - Delfrost response: Okay, sure thing!  I'll be your personal Iron Man AI coming through with some allure! Let's do it.
+2025-05-18 20:20:05,378 - INFO - User input: flirt then
+2025-05-18 20:20:05,378 - INFO - Classified intent: general
+2025-05-18 20:20:05,378 - INFO - Chatbot input: flirt then
+2025-05-18 20:20:06,006 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 20:20:06,007 - INFO - Chatbot response: The quicker the answer is the spell of flirtation. Let's dazzle them with tech wizardry!
+2025-05-18 20:20:06,007 - INFO - Delfrost response: The quicker the answer is the spell of flirtation. Let's dazzle them with tech wizardry!
+2025-05-18 20:20:18,088 - INFO - Delfrost shutdown
+2025-05-18 20:20:23,865 - ERROR - Failed to import RealTimeSearchEngine: No module named 'RealTimeSearchEngine'
+2025-05-18 20:20:23,866 - ERROR - Failed to import Automation: No module named 'Automation'
+2025-05-18 20:20:23,867 - ERROR - Failed to import ImageGeneration: No module named 'ImageGeneration'
+2025-05-18 20:20:23,868 - ERROR - Failed to import TextToSpeech: No module named 'TextToSpeech'
+2025-05-18 20:20:23,868 - ERROR - Failed to import Chatbot: No module named 'Chatbot'
+2025-05-18 20:20:24,485 - INFO - Configuration loaded successfully
+2025-05-18 20:20:24,485 - INFO - Delfrost initialized in console mode
+2025-05-18 20:20:36,768 - INFO - Shutting down Delfrost
+2025-05-18 20:21:16,458 - INFO - Configuration loaded successfully
+2025-05-18 20:21:16,459 - INFO - Delfrost initialized in console mode
+2025-05-18 20:21:21,363 - INFO - User input: open youtbe
+2025-05-18 20:21:21,363 - INFO - Classified intent: open
+2025-05-18 20:21:23,304 - INFO - Delfrost response: Failed to open youtbe: Command '['start', '', 'youtbe']' returned non-zero exit status 1.
+2025-05-18 20:21:23,305 - INFO - Intent: open
+2025-05-18 20:21:33,301 - INFO - Shutting down Delfrost
+2025-05-19 07:46:29,028 - INFO - Configuration loaded successfully
+2025-05-19 07:46:29,029 - INFO - Delfrost initialized in console mode
+2025-05-19 07:46:44,275 - INFO - User input: open youtube and search rebel kid
+2025-05-19 07:46:44,275 - INFO - Classified intent: youtube search
+2025-05-19 07:46:44,359 - INFO - Delfrost response: Done!
+2025-05-19 07:46:44,360 - INFO - Intent: youtube search
+2025-05-19 07:47:19,176 - INFO - User input: open youtube and search rebel kid
+2025-05-19 07:47:19,176 - INFO - Classified intent: youtube search
+2025-05-19 07:47:19,199 - INFO - Delfrost response: Done!
+2025-05-19 07:47:19,199 - INFO - Intent: youtube search
+2025-05-19 07:47:33,088 - INFO - User input: open spotify
+2025-05-19 07:47:33,089 - INFO - Classified intent: open
+2025-05-19 07:47:33,157 - INFO - Delfrost response: Done!
+2025-05-19 07:47:33,157 - INFO - Intent: open
+2025-05-19 07:49:16,349 - INFO - Shutting down Delfrost
