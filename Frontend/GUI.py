@@ -1,134 +1,108 @@
 import sys
-import os
-import logging
-from PyQt5.QtWidgets import (
-    QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
-    QTextEdit, QLineEdit, QPushButton, QLabel
-)
+from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QTextEdit, QLineEdit, QPushButton
 from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QFont
+from rich.console import Console
+import logging
 
-# Import Model.py for AI processing
-try:
-    from Backend.Model import process_input
-except ImportError:
-    print("Error: Model.py not found in Backend folder.")
-    raise
+console = Console()
 
-# Set up logging to Data folder
-os.makedirs("Data", exist_ok=True)
 logging.basicConfig(
     filename="Data/delfrost_logs.txt",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-class DelfrostWindow(QMainWindow):
-    """
-    Main window for the Delfrost GUI.
-    """
-    def __init__(self):
+class DelfrostGUI(QMainWindow):
+    def __init__(self, process_input, speech_to_text, speak_text):
         super().__init__()
-        self.init_ui()
+        self.process_input = process_input
+        self.speech_to_text = speech_to_text
+        self.speak_text = speak_text
+        self.voice_mode = False
+        self.initUI()
 
-    def init_ui(self):
-        """
-        Initialize the GUI components.
-        """
-        self.setWindowTitle("Delfrost AI Assistant")
+    def initUI(self):
+        self.setWindowTitle("Jerry AI Assistant")
         self.setGeometry(100, 100, 600, 400)
 
-        # Central widget and layout
-        central_widget = QWidget()
-        self.setCentralWidget(central_widget)
-        layout = QVBoxLayout(central_widget)
+        # Main widget and layout
+        main_widget = QWidget(self)
+        self.setCentralWidget(main_widget)
+        layout = QVBoxLayout(main_widget)
 
-        # Header
-        header = QLabel("Delfrost: Your AI Assistant")
-        header.setFont(QFont("Arial", 16, QFont.Bold))
-        header.setAlignment(Qt.AlignCenter)
-        layout.addWidget(header)
+        # Chat display
+        self.chat_display = QTextEdit()
+        self.chat_display.setReadOnly(True)
+        layout.addWidget(self.chat_display)
 
-        # Chat output area (read-only)
-        self.chat_output = QTextEdit()
-        self.chat_output.setReadOnly(True)
-        self.chat_output.setFont(QFont("Arial", 12))
-        layout.addWidget(self.chat_output)
-
-        # Input area
-        input_layout = QHBoxLayout()
-        
+        # Input field
         self.input_field = QLineEdit()
-        self.input_field.setFont(QFont("Arial", 12))
-        self.input_field.setPlaceholderText("Type your command (e.g., 'open youtube')")
-        self.input_field.returnPressed.connect(self.send_input)
-        input_layout.addWidget(self.input_field)
+        self.input_field.returnPressed.connect(self.send_command)
+        layout.addWidget(self.input_field)
 
+        # Send button
         send_button = QPushButton("Send")
-        send_button.setFont(QFont("Arial", 12))
-        send_button.clicked.connect(self.send_input)
-        input_layout.addWidget(send_button)
+        send_button.clicked.connect(self.send_command)
+        layout.addWidget(send_button)
 
-        layout.addLayout(input_layout)
+        # Voice button
+        voice_button = QPushButton("Toggle Voice Mode")
+        voice_button.clicked.connect(self.toggle_voice_mode)
+        layout.addWidget(voice_button)
 
-        # Control buttons
-        control_layout = QHBoxLayout()
-        
-        clear_button = QPushButton("Clear Chat")
-        clear_button.setFont(QFont("Arial", 12))
-        clear_button.clicked.connect(self.clear_chat)
-        control_layout.addWidget(clear_button)
+        # Speech input button
+        speech_button = QPushButton("Speak Command")
+        speech_button.clicked.connect(self.speech_command)
+        layout.addWidget(speech_button)
 
-        exit_button = QPushButton("Exit")
-        exit_button.setFont(QFont("Arial", 12))
-        exit_button.clicked.connect(self.close)
-        control_layout.addWidget(exit_button)
-
-        layout.addLayout(control_layout)
-
-        # Log GUI initialization
-        logging.info("Delfrost GUI initialized")
-
-    def send_input(self):
-        """
-        Process user input and display the response.
-        """
+    def send_command(self):
         user_input = self.input_field.text().strip()
-        if not user_input:
-            return
+        if user_input:
+            self.chat_display.append(f"<b>You:</b> {user_input}")
+            logging.info(f"GUI input: {user_input}")
+            response, intent = self.process_input(user_input)
+            self.chat_display.append(f"<b>Delfrost:</b> {response}")
+            logging.info(f"GUI response: {response}")
+            if self.voice_mode:
+                self.speak_text(response)
+            self.input_field.clear()
+            # Update voice mode based on intent
+            if intent == "voice":
+                self.voice_mode = "enable" in user_input.lower()
 
-        # Display user input
-        self.chat_output.append(f"<b>You:</b> {user_input}")
-        logging.info(f"GUI User input: {user_input}")
-
-        # Process input using Model.py
+    def speech_command(self):
         try:
-            response, intent = process_input(user_input)
-            self.chat_output.append(f"<b>Delfrost:</b> {response}")
-            logging.info(f"GUI Response: {response}, Intent: {intent}")
+            user_input = self.speech_to_text()
+            if user_input in ["No speech detected.", "Could not understand audio."]:
+                self.chat_display.append(f"<b>Error:</b> {user_input}")
+                return
+            if "error" in user_input.lower():
+                self.chat_display.append(f"<b>Error:</b> {user_input}")
+                return
+            self.chat_display.append(f"<b>You:</b> {user_input}")
+            logging.info(f"GUI speech input: {user_input}")
+            response, intent = self.process_input(user_input)
+            self.chat_display.append(f"<b>Delfrost:</b> {response}")
+            logging.info(f"GUI speech response: {response}")
+            if self.voice_mode:
+                self.speak_text(response)
+            # Update voice mode based on intent
+            if intent == "voice":
+                self.voice_mode = "enable" in user_input.lower()
         except Exception as e:
-            error_msg = f"Error: {str(e)}"
-            self.chat_output.append(f"<b>Delfrost:</b> {error_msg}")
-            logging.error(f"GUI Error: {error_msg}")
+            self.chat_display.append(f"<b>Error:</b> Speech input error: {str(e)}")
+            logging.error(f"GUI speech input error: {str(e)}")
 
-        # Clear input field
-        self.input_field.clear()
+    def toggle_voice_mode(self):
+        self.voice_mode = not self.voice_mode
+        status = "enabled" if self.voice_mode else "disabled"
+        self.chat_display.append(f"<b>Jerry:</b> Voice mode {status}.")
+        logging.info(f"Voice mode {status}")
+        response, intent = self.process_input(f"{'enable' if self.voice_mode else 'disable'} voice")
+        self.chat_display.append(f"<b>Jerry:</b> {response}")
 
-        # Scroll to bottom
-        self.chat_output.verticalScrollBar().setValue(self.chat_output.verticalScrollBar().maximum())
-
-    def clear_chat(self):
-        """
-        Clear the chat output area.
-        """
-        self.chat_output.clear()
-        logging.info("GUI Chat cleared")
-
-def run_gui():
-    """
-    Launch the Delfrost GUI application.
-    """
+def run_gui(process_input, speech_to_text, speak_text):
     app = QApplication(sys.argv)
-    window = DelfrostWindow()
+    window = DelfrostGUI(process_input, speech_to_text, speak_text)
     window.show()
     sys.exit(app.exec_())
