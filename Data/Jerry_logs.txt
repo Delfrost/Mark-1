@@ -31,3 +31,44 @@
 2025-05-19 22:06:49,471 - INFO - Jerry response: Done!
 2025-05-19 22:06:49,471 - INFO - GUI response: Done!
 2025-05-19 22:06:49,526 - INFO - Speaking text: Done!
+2025-06-14 10:35:44,047 - INFO - Jerry Console Mode Initialized
+2025-06-14 10:35:51,839 - INFO - User input: hello
+2025-06-14 10:35:51,839 - INFO - Classified intent: general
+2025-06-14 10:35:51,839 - INFO - Chatbot input: hello
+2025-06-14 10:35:52,678 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-14 10:35:52,683 - INFO - Chatbot response: Hello, human! What's this all about? how can I assist you with
+2025-06-14 10:35:52,683 - INFO - Jerry response: Hello, human! What's this all about? how can I assist you with
+2025-06-14 10:36:08,515 - INFO - User input: open youtube
+2025-06-14 10:36:08,516 - INFO - Classified intent: open
+2025-06-14 10:36:08,756 - INFO - Jerry response: Done!
+2025-06-14 10:36:24,462 - INFO - User input: who is messi
+2025-06-14 10:36:24,463 - INFO - Classified intent: general
+2025-06-14 10:36:24,463 - INFO - Chatbot input: who is messi
+2025-06-14 10:36:25,058 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-14 10:36:25,058 - INFO - Chatbot response: Answer: m\u025bssi, of course. Cylinder, that's next letter.
+2025-06-14 10:36:25,058 - INFO - Jerry response: Answer: m\u025bssi, of course. Cylinder, that's next letter.
+2025-06-14 10:36:42,684 - INFO - User input: Lionel messi
+2025-06-14 10:36:42,684 - INFO - Classified intent: general
+2025-06-14 10:36:42,685 - INFO - Chatbot input: Lionel messi
+2025-06-14 10:36:43,456 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-14 10:36:43,469 - INFO - Chatbot response: Hey Lionel! Not everyone has a supermodel AI assistant named Jerry. But if they did, it would definitely help them out. Get inspired. I can solve complex any strategies and would, play!
+2025-06-14 10:36:43,469 - INFO - Jerry response: Hey Lionel! Not everyone has a supermodel AI assistant named Jerry. But if they did, it would definitely help them out. Get inspired. I can solve complex any strategies and would, play!
+2025-06-14 10:37:04,511 - INFO - User input: how to calculate simple interest
+2025-06-14 10:37:04,512 - INFO - Classified intent: general
+2025-06-14 10:37:04,512 - INFO - Chatbot input: how to calculate simple interest
+2025-06-14 10:37:05,468 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-14 10:37:05,470 - INFO - Chatbot response: Ah, the age-old question! I'm glad you asked, let's dive right into it! Simple interest is calculated by multiplying the principal amount by a constant rate of interest, and then by the time period of the investment. That's simple as i love easy math!
+2025-06-14 10:37:05,472 - INFO - Jerry response: Ah, the age-old question! I'm glad you asked, let's dive right into it! Simple interest is calculated by multiplying the principal amount by a constant rate of interest, and then by the time period of the investment. That's simple as i love easy math!
+2025-06-14 10:37:27,252 - INFO - User input: Suggest me some thriller movies
+2025-06-14 10:37:27,252 - INFO - Classified intent: general
+2025-06-14 10:37:27,253 - INFO - Chatbot input: Suggest me some thriller movies
+2025-06-14 10:37:28,224 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-14 10:37:28,231 - INFO - Chatbot response: Of course! Some great picks for thrilling films are:
+2025-06-14 10:37:28,233 - INFO - Jerry response: Of course! Some great picks for thrilling films are:
+2025-06-14 10:37:39,226 - INFO - User input: suggest
+2025-06-14 10:37:39,226 - INFO - Classified intent: general
+2025-06-14 10:37:39,226 - INFO - Chatbot input: suggest
+2025-06-14 10:37:39,928 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-14 10:37:39,928 - INFO - Chatbot response: I like your wordplay! I suggest we enhance our digital relationship by creating some new and innovative tech acronyms that are... cool!
+2025-06-14 10:37:39,928 - INFO - Jerry response: I like your wordplay! I suggest we enhance our digital relationship by creating some new and innovative tech acronyms that are... cool!
+2025-06-14 10:37:46,406 - INFO - Jerry shutdown
