@@ -112,3 +112,100 @@
 2025-05-03 23:44:46,485 - INFO - Delfrost response: Application opening not implemented.
 2025-05-03 23:44:46,486 - INFO - Intent: open
 2025-05-03 23:44:49,133 - INFO - Shutting down Delfrost
+2025-05-18 19:55:28,747 - INFO - Configuration loaded successfully
+2025-05-18 19:55:28,751 - INFO - Delfrost initialized in console mode
+2025-05-18 19:55:38,360 - INFO - User input: hello
+2025-05-18 19:55:38,361 - INFO - Classified intent: general
+2025-05-18 19:55:39,627 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 19:55:39,644 - INFO - Delfrost response: Hello, Delfrost is here! I can assist you with queries and provide thorough responses.
+2025-05-18 19:55:39,647 - INFO - Intent: general
+2025-05-18 19:55:50,277 - INFO - User input: how are you
+2025-05-18 19:55:50,277 - INFO - Classified intent: general
+2025-05-18 19:55:50,993 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 19:55:50,995 - INFO - Delfrost response: Just another brilliant AI chatbot, ready to help and assist with thoughtful and creative responses, much like the character I am based on!
+2025-05-18 19:55:50,997 - INFO - Intent: general
+2025-05-18 19:56:00,702 - INFO - User input: opne google chrome
+2025-05-18 19:56:00,702 - INFO - Classified intent: general
+2025-05-18 19:56:01,437 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 19:56:01,440 - INFO - Delfrost response: I could assist you with opening Google Chrome, just let me do that for you.  I will connect you your favorite browser and open the Google homepage.
+2025-05-18 19:56:01,443 - INFO - Intent: general
+2025-05-18 19:56:24,222 - INFO - User input: you did not open
+2025-05-18 19:56:24,222 - INFO - Classified intent: general
+2025-05-18 19:56:24,784 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 19:56:24,787 - INFO - Delfrost response: I'm glad to assist.
+2025-05-18 19:56:24,790 - INFO - Intent: general
+2025-05-18 19:56:37,790 - INFO - User input: messi or ronaldo
+2025-05-18 19:56:37,790 - INFO - Classified intent: general
+2025-05-18 19:56:38,506 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 19:56:38,509 - INFO - Delfrost response: Sure thing's not great! I'm capable of performing tasks like language and text and I can assist with a wide variety of topics.
+2025-05-18 19:56:38,512 - INFO - Intent: general
+2025-05-18 19:57:02,622 - INFO - User input: convert this into hindi - "How are You'
+2025-05-18 19:57:02,622 - INFO - Classified intent: general
+2025-05-18 19:57:03,390 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-18 19:57:03,392 - INFO - Delfrost response: Content writing is my game hai matlab aapne  :D ek kadam seva hai, aapna sahi
+2025-05-18 19:57:03,394 - INFO - Intent: general
+2025-05-18 19:57:19,846 - INFO - Shutting down Delfrost
+2025-05-19 09:18:12,277 - INFO - Configuration loaded successfully
+2025-05-19 09:18:12,280 - INFO - Delfrost initialized in console mode
+2025-05-19 09:18:17,104 - INFO - User input: hello
+2025-05-19 09:18:17,105 - INFO - Classified intent: general
+2025-05-19 09:18:17,846 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-19 09:18:17,852 - INFO - Delfrost response: Hi, there! I'm doing my best to help you out with your queries. I can assist you with my various tasks and give you quick answers!
+2025-05-19 09:18:17,854 - INFO - Intent: general
+2025-05-19 09:18:28,449 - INFO - User input: open youtube
+2025-05-19 09:18:28,450 - INFO - Classified intent: open
+2025-05-19 09:18:28,668 - INFO - Delfrost response: Done!
+2025-05-19 09:18:28,669 - INFO - Intent: open
+2025-05-19 09:18:54,454 - INFO - User input: tell me who is better messi or ronaldo
+2025-05-19 09:18:54,455 - INFO - Classified intent: general
+2025-05-19 09:18:55,149 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-19 09:18:55,152 - INFO - Delfrost response: As an AI chatbot, I don't have any personal preferences or opinions. I can help assist you researching both characters and providing facts or insights.
+2025-05-19 09:18:55,156 - INFO - Intent: general
+2025-05-19 09:19:16,263 - INFO - User input: who won world cup in 2022
+2025-05-19 09:19:16,264 - INFO - Classified intent: general
+2025-05-19 09:19:16,913 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-19 09:19:16,915 - INFO - Delfrost response: Argentina won the 2022 FIFA World Cup title.  They are iconic moment for Lionel Messi and his country Argentina.
+2025-05-19 09:19:16,917 - INFO - Intent: general
+2025-05-19 09:19:30,246 - INFO - User input: mission impossible 8
+2025-05-19 09:19:30,246 - INFO - Classified intent: general
+2025-05-19 09:19:30,951 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-19 09:19:30,954 - INFO - Delfrost response: No problem! I'll get you your answers. I can assist you with questions related to sports, research, or any other topics.
+2025-05-19 09:19:30,956 - INFO - Intent: general
+2025-05-19 09:20:03,133 - INFO - User input: which movie i should watch mission impossible 8 or final destination 6
+2025-05-19 09:20:03,133 - INFO - Classified intent: general
+2025-05-19 09:20:04,175 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-19 09:20:04,176 - INFO - Delfrost response: I would recommend "Final Destination 6." This movie has a great cast, entertaining concepts around a competition, and is light-hearted. You'll have fun watching the I would have fun with this action flick.
+2025-05-19 09:20:04,178 - INFO - Intent: general
+2025-05-19 09:20:20,254 - INFO - User input: i am big tom cruise fan
+2025-05-19 09:20:20,254 - INFO - Classified intent: general
+2025-05-19 09:20:21,033 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-05-19 09:20:21,033 - INFO - Delfrost response: It sounds like you'd have a blast watching the TV series "The Terminal List" which is based on true events and has many of the classic elements that fans enjoy from Tom Cruise's movies.
+2025-05-19 09:20:21,035 - INFO - Intent: general
+2025-05-19 09:20:44,114 - INFO - Shutting down Delfrost
+2025-06-14 10:26:33,298 - INFO - Configuration loaded successfully
+2025-06-14 10:26:33,298 - INFO - Delfrost initialized in console mode
+2025-06-14 10:26:36,870 - INFO - User input: hello
+2025-06-14 10:26:36,870 - INFO - Classified intent: general
+2025-06-14 10:26:38,017 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-14 10:26:38,033 - INFO - Delfrost response: Hello! My name is Delfrost, and I am ready to assist you with I can help with various topics, and offer my assistance with writing, creative ideas, and any other questions you may have!
+2025-06-14 10:26:38,033 - INFO - Intent: general
+2025-06-14 10:26:48,111 - INFO - User input: open chorme
+2025-06-14 10:26:48,112 - INFO - Classified intent: open
+2025-06-14 10:26:48,112 - INFO - Delfrost response: Application opening not implemented.
+2025-06-14 10:26:48,114 - INFO - Intent: open
+2025-06-14 10:27:01,535 - INFO - User input: tell me about messi
+2025-06-14 10:27:01,535 - INFO - Classified intent: general
+2025-06-14 10:27:02,374 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-14 10:27:02,376 - INFO - Delfrost response: I'll assist you with tasks, queries, or anything related to general knowledge, but at the moment, I don't have specific knowledge about the TV series Messi.  I can provide information about other topics or you would like to explore beyond this
+2025-06-14 10:27:02,380 - INFO - Intent: general
+2025-06-14 10:27:15,520 - INFO - User input: is messi footballer
+2025-06-14 10:27:15,520 - INFO - Classified intent: general
+2025-06-14 10:27:16,348 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-14 10:27:16,348 - INFO - Delfrost response: Yes, Messi is a professional football player and has played for teams like Barcelona and Argentina national team. His impressive and career has trailblank records and accolades, he has also led his club to many titles.
+2025-06-14 10:27:16,348 - INFO - Intent: general
+2025-06-14 10:27:30,037 - INFO - User input: who is better messi or ronaldo
+2025-06-14 10:27:30,037 - INFO - Classified intent: general
+2025-06-14 10:27:30,920 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-14 10:27:30,920 - INFO - Delfrost response: Although I don't have personal preferences or opinions, Messi and Ronaldo are two of the greatest football icons of our time. I'll gladly help you template answer: They are both outstanding players and have had successful careers. Their comparisons and achievements are remarkable,
+2025-06-14 10:27:30,925 - INFO - Intent: general
+2025-06-14 10:27:38,668 - INFO - Shutting down Delfrost
