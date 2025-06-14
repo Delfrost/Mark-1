@@ -72,3 +72,20 @@
 2025-06-14 10:37:39,928 - INFO - Chatbot response: I like your wordplay! I suggest we enhance our digital relationship by creating some new and innovative tech acronyms that are... cool!
 2025-06-14 10:37:39,928 - INFO - Jerry response: I like your wordplay! I suggest we enhance our digital relationship by creating some new and innovative tech acronyms that are... cool!
 2025-06-14 10:37:46,406 - INFO - Jerry shutdown
+2025-06-14 11:01:10,946 - INFO - Jerry Console Mode Initialized
+2025-06-14 11:01:13,848 - INFO - User input: hello
+2025-06-14 11:01:13,848 - INFO - Classified intent: general
+2025-06-14 11:01:13,848 - INFO - Chatbot input: hello
+2025-06-14 11:01:14,631 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-14 11:01:14,636 - INFO - Chatbot response: Hello there! I'm AI Jerry ready to assist and help you out with tech-savvy answers!
+2025-06-14 11:01:14,636 - INFO - Jerry response: Hello there! I'm AI Jerry ready to assist and help you out with tech-savvy answers!
+2025-06-14 11:01:27,998 - INFO - User input: increase volume
+2025-06-14 11:01:27,998 - INFO - Classified intent: general
+2025-06-14 11:01:27,998 - INFO - Chatbot input: increase volume
+2025-06-14 11:01:28,586 - INFO - HTTP Request: POST https://api.cohere.com/v1/generate "HTTP/1.1 200 OK"
+2025-06-14 11:01:28,586 - INFO - Chatbot response: Nice query. I'll give you audio assistance. We can help tweak systems to enhance volume!
+2025-06-14 11:01:28,586 - INFO - Jerry response: Nice query. I'll give you audio assistance. We can help tweak systems to enhance volume!
+2025-06-14 11:01:39,963 - INFO - User input: open youtube
+2025-06-14 11:01:39,964 - INFO - Classified intent: open
+2025-06-14 11:01:40,218 - INFO - Jerry response: Done!
+2025-06-14 11:02:49,175 - INFO - Jerry shutdown
